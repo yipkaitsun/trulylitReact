@@ -3,6 +3,7 @@ import {  Modal,Table, Tag,Spin} from 'antd';
 import axios from 'axios';
 import Cookies from 'universal-cookie';
 import PageIndicator from '../components/pageIndicator';
+import Order from '../components/order';
 const cookies = new Cookies();
 const columns = [
   {
