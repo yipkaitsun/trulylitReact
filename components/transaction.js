@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {  Modal,Table, Tag,Spin} from 'antd';
 import axios from 'axios';
 import Cookies from 'universal-cookie';
-import Order from '../components/Order';
 import PageIndicator from '../components/pageIndicator';
 const cookies = new Cookies();
 const columns = [
